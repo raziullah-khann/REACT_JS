@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  /* height: 62px; */
+  background-color: burlywood;
+  position: sticky;
+  top: 0px;
+  text-decoration: none;
+  z-index: 1;
+  padding: 0;
+}
+
+.logo {
+  width: 100px;
+  height: 72px; 
+  margin-top: 0;
+  margin-bottom: -3px;
+}
+
+.nav-items > ul {
+  display: flex; 
+  list-style-type: none;
+  font-size: 24px;
+  /* justify-content: space-around; */
+}
+
+.nav-items > ul > li {
+  padding: 10px; 
+  margin: 10px;
+}
+
+.onlineStatus{
+  font-size: 21px;
+}
+
+/* Add this CSS to your stylesheet */
+.header a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+}
+
+.nav-items a:hover,
+.nav-items a:active,
+.nav-items a.active {
+  color: rgb(76, 9, 245);
+  text-decoration: underline;
+}
+
+.login {
+  padding: 0 14px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: none;
+  height: 73px;
+}
