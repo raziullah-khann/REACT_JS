@@ -1,0 +1,122 @@
+/* Header */
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+/* Body */
+.filter{
+   display: block;
+   display: flex;
+   justify-content: center;
+   /* margin-left: 15%; */
+   
+}
+/* .res-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30px;
+   padding: 30px;
+   
+} */
+
+/* Add this CSS to your stylesheet */
+.res-container a {
+   text-decoration: none;
+   color: inherit; 
+   display: flex;
+   justify-content: center;
+   /* width: 340px; */
+ }
+ 
+ /* Optionally, you can style the links when hovered */
+ .res-container a:hover {
+   text-decoration: underline; /* Add underline on hover if desired */
+ }
+
+.res-card {
+   padding: 8px;
+   width: 340px;
+   transition: transform 0.3s ease-out;
+   background-color: #f0f0f0;
+   color: black;
+   text-decoration:none;
+   border-radius: 12px;
+}
+
+.res-card h3, .res-card h4  {
+   margin: 8px 0;
+}
+
+.res-card:hover{
+   /* border: 1px solid black; */
+   cursor: pointer;
+   transform: scale(0.9);
+}
+
+.burger_image{
+   width: 100%;
+   height: 200px;
+   display: block; 
+}
+
+.rating{
+   margin: 3px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.search{
+   margin: 0.8rem;
+   padding: 0.7rem;
+}
+
+.search-box{
+   border-radius: 12px;
+   height: 7vh;
+   padding: 0.7rem;
+   margin-left: 10px;
+   margin-right: 10px;
+   border: 2px solid black;
+}
+
+.search-btn{
+   /* margin: 0.1rem; */
+   padding: 0.5rem;
+   cursor: pointer;
+   color: white;
+   height: 7vh;
+   background-color: rgb(245, 10, 229);
+   border-radius: 5vb;
+}
+
+.filter-btn{
+   margin: 1.5rem;
+   height: 7vh;
+   cursor: pointer;
+   color: white;
+   background-color: rgb(245, 10, 229);
+   border-radius: 12px;
+}
+
+.filter-btn:hover,
+.filter-btn:active {
+   background-color: rgb(81, 4, 75);
+}
+
+.shimmer-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+.shimmer-card{
+   margin: 33px;
+   width: 300px;
+   height: 400px;
+   background-color: #f0f0f0;
+}
+
