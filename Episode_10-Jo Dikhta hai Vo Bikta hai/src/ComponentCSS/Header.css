@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this CSS to your stylesheet */
+.header a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+  }
+  
+  .nav-items a:hover,
+  .nav-items a:active,
+  .nav-items a.active {
+    color: rgb(76, 9, 245);
+    text-decoration: underline;
+  }
