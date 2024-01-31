@@ -1,0 +1,12 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 50;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.image{
+    width: 400px;
+    height: 500px;
+}
